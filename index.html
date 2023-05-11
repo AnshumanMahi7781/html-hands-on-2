@@ -14,25 +14,25 @@
     <form action="./index2.html" target="_self" >
 
         <label for="name">Name</label>
-        <input type="text" placeholder="name" required name="name"><br /><br />
+        <input type="text" placeholder="name" id="name" required name="name"><br /><br />
 
         <label for="email">Email Address</label>
-        <input type="email" placeholder="email" required name="email"><br /><br />
+        <input type="email" placeholder="email" required name="email" id="email"><br /><br />
 
-        <label for="password">Password</label>
-        <input type="password" placeholder="password" required name="password"><br /><br />
+        <label for="pass">Password</label>
+        <input type="password" placeholder="password" required name="password" id="pass"><br /><br />
 
 
         <label for="languageName">Language</label><br/>
-        <input type="radio" name="languageName-1" value="react"> <label>React</label><br />
-        <input type="radio" name="languageName-2" value="angular"> <label>Angular</label><br />
-        <input type="radio" name="languageName-3" value="vue"> <label>Vue</label><br /><br/>
+        <input type="radio" name="languageName" value="react" id="react"> <label for="react">React</label><br />
+        <input type="radio" name="languageName" value="angular" id="angular"> <label for="angular">Angular</label><br />
+        <input type="radio" name="languageName" value="vue" id="vue"> <label for="vue">Vue</label><br /><br/>
 
 
         <label for="courseName">Course</label><br/>
-        <input type="checkbox" name="course1" value="mern"> <label>MERN</label><br />
-        <input type="checkbox" name="course2" value="mean"> <label>MEAN</label><br />
-        <input type="checkbox" name="course3" value="mevn"> <label>MEVN</label><br /><br/>
+        <input type="checkbox" name="course1" value="mern" id="mern"> <label for="mern">MERN</label><br />
+        <input type="checkbox" name="course2" value="mean"id="mean"> <label for="mean">MEAN</label><br />
+        <input type="checkbox" name="course3" value="mevn" id="mevn"> <label for="mevn">MEVN</label><br /><br/>
 
         <label for="field">Field:</label>
         <select required>
